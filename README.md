@@ -8,5 +8,5 @@
   - cd my-app/
   - npm start
   - 创建目录结构如下：
-  >![](./src/images/markdown/step1.png)
+  ![](src/images/markdown/step1.png)
 ####在src下写你自己的代码

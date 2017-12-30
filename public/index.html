@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src *;
+             style-src * 'self' 'unsafe-inline' 'unsafe-eval';
+             script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -22,6 +26,7 @@
     <title>React App</title>
   </head>
   <body>
+  <ons-navigator id="navigator"></ons-navigator>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
@@ -36,5 +41,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  </ons-navigator>
   </body>
 </html>

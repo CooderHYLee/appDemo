@@ -22,6 +22,9 @@ const Navigator = (props) => {
   )
 }
 
+// Navigator.propTypes = {
+//   initialRoute: React.PropTypes.object.isRequired
+// }
 
 Navigator.defaultProps = {
   popPage: () => {

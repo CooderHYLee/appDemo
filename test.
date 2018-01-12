@@ -1,0 +1,4 @@
+<view>交易金额:
+          <span wx:if="{{queryData.payMode == 'wechat' || queryData.payMode == 'alipay'}}" class='addText'>{{queryData.tranAmt*0.01}}</span>
+          <span wx:if="{{queryData.payMode == 'wechatRefund' || queryData.payMode == 'alipayRefund'}}" class='lessText'>{{queryData.tranAmt*0.01}}</span>
+        </view>

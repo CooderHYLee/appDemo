@@ -1,0 +1,17 @@
+.loadingImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+
+.loadingApp{
+    border:1px solid blue;
+    background-color: inherit;
+    text-align: center;
+    top: 450px;
+    left: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

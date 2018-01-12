@@ -5,6 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import '../node_modules/onsenui/css/onsenui.css';
 import '../node_modules/onsenui/css/onsen-css-components.css';
+import './css/loading/loading.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

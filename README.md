@@ -9,8 +9,9 @@
   - create-react-app my-app
   - cd my-app/
   - npm start
-![](./src/images/markdown/step1.png)
   
 #### 在src下写你自己的代码
-- 使用onsenui
+- 使用onsenui来快速构建UI
  - npm install onsenui react-onsenui --save-dev
+- 使用路由（本app使用的是onsenui自己带的路由，也可以使用react-router）
+ - 
